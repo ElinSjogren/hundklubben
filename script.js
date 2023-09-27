@@ -3,19 +3,18 @@ let anvandarNamn = "Bella";
 
 window.onload = (event) =>{
   
-    let namnRuta = document.getElementById('namn');
-    let losenRuta = document.getElementById('losenord');
-    const knappen = document.getElementById('loggaInKnapp');
+  
+  let knappen = document.getElementById('loggaInKnapp');
+  knappen.addEventListener("click", function(){
+    
+      let namnInmatning = document.getElementById('namn').innerText;
+      let losenRutaInmatning = document.getElementById('losenord').innerText;
 
-    knappen.addEventListener("click", function(event){
-      event.preventDefault();
-      let inLosen = losenRuta.innerHTML;
-      let inNamn = namnRuta.innerHTML;
-      console.log(inLosen + inNamn); 
-      localStorage.setItem("losen", losenRuta.innerHTML);
-      localStorage.setItem("namn", namnRuta.innerHTML);
+      console.dir(namnInmatning, losenRutaInmatning); 
+      localStorage.setItem("losen", losenRutaInmatning);
+      localStorage.setItem("namn", namnInmatning);
     });
 };
 
-
-console.log(localStorage);
+// verkar inte funka att få ut väde ur input rutorna?
+//eller så funkar inte funktionen alls. :C
