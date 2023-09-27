@@ -7,3 +7,4 @@ Detta project kommer att vara utmanande. Jag tänker att avgöra om lösenordet 
 Men själva pop-uperna som säger att lösenordet är fel kan nog vara ganska svårt. Jag kan tänka mig att jag slänger 
 ut en div precis under som får vara röd om det blev fel.
 
+För att kontrollera om det är rätt lösen for jag ha en if-kontroll som kollar att båda inputtarna är rätt.
