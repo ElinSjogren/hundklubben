@@ -52,5 +52,7 @@ nav ul{
   margin: auto;
   padding: 2rem;
   margin-top: 2reM;
-
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
