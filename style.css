@@ -7,6 +7,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.osynlig{
+  visibility: hidden;
+}
+
 body{
   background-color: rgb(219, 219, 219);
   height: 100vh;
@@ -15,7 +19,6 @@ body{
 title{
   display:none;
 }
-
 header{
   height: 45vh;
   background-color: rgb(106, 150, 116);
@@ -45,7 +48,8 @@ nav ul{
   justify-content: space-evenly;
 }
 
-.loggaInWrapp{
+.loggaInWrapp,
+.informationSomInloggad{
   width: 40vw;
   background-color: rgb(189, 202, 167);
   border-radius: 3px; 
@@ -55,4 +59,10 @@ nav ul{
   display: flex;
   justify-content: center;
   justify-items: center;
+}
+.informationSomInloggad{
+flex-direction: column;
+}
+.informationSomInloggad h2{
+  text-align: center;
 }
