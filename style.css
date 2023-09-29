@@ -75,3 +75,10 @@ button{
   background-color: rgb(76, 105, 38);
   color: white;
 }
+
+@media (max-width: 500px) {
+  .loggaInWrapp,
+#informationSomInloggad{
+  width: 80vw;
+}
+}
