@@ -9,6 +9,8 @@
 
 .osynlig{
   visibility: hidden;
+  display: none;
+  transition: 0.5s;
 }
 
 body{
@@ -49,7 +51,7 @@ nav ul{
 }
 
 .loggaInWrapp,
-.informationSomInloggad{
+#informationSomInloggad{
   width: 40vw;
   background-color: rgb(189, 202, 167);
   border-radius: 3px; 
@@ -60,9 +62,16 @@ nav ul{
   justify-content: center;
   justify-items: center;
 }
-.informationSomInloggad{
+#informationSomInloggad{
 flex-direction: column;
 }
-.informationSomInloggad h2{
+#informationSomInloggad h2{
   text-align: center;
+}
+button{
+  border: none;
+  border-radius: 2px;
+  padding:1rem;
+  background-color: rgb(76, 105, 38);
+  color: white;
 }
