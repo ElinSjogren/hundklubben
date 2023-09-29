@@ -27,6 +27,10 @@ if(localStorage.inloggad = true){
         let formular = document.getElementById('loggaInFormular');
         const pElem = document.createElement('p')
         pElem.innerHTML = "Fel användarnamn eller lösenord. :(";
+        pElem.style.backgroundColor = 'red';
+        pElem.style.color = 'white';
+        pElem.style.padding = '1rem';
+        pElem.style.borderRadius = '1rem';
         formular.appendChild(pElem);
       }
     
