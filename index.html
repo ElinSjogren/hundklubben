@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hundklubben</title>
-  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,14 +18,15 @@
   </nav>
   <div class="loggaInWrapp">
     <form id="loggaInFormular" onsubmit="return false">
-        <label for="namn">Namn</label>
-        <input type="text" id="namn" name="namn"><br>
-        <label for="losenord">Lösenord</label>
-        <input type="password" id="losenord" name="losenord"><br>
-        <button id="loggaInKnapp">Logga in</button>  
+      <label for="namn">Namn</label>
+      <input type="text" id="namn" name="namn"><br>
+      <label for="losenord">Lösenord</label>
+      <input type="password" id="losenord" name="losenord"><br>
+      <button id="loggaInKnapp">Logga in</button>  
     </form>
     <button id="loggaUtKnapp" class="osynlig">Logga Ut</button>
   </div>
+  <div id="inloggadText"></div>
   <div id="informationSomInloggad" class="osynlig">
     <h2>Regler och vilkor</h2>
     <p>
@@ -44,7 +44,8 @@
       et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae 
       non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
       consequatur aut perferendis doloribus asperiores repellat.</p>
-  </div>
-  
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

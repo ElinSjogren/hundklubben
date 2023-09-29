@@ -14,4 +14,6 @@ För att kontrollera om det är rätt lösen for jag ha en if-kontroll som kolla
 Jag förstår inte riktigt det här med meddelandet:
 ""välkommen, du är nu inloggad"... Detta meddelande skall genereras på din html-sida, så du 
 bör göra det i script.js."
-Men jag tolkar det som att det måste läggas in ett element i html som genererats från JS.
+Men jag tolkar det som att det måste läggas in ett element i html som genererats från JS. Jag kommer lägga ut en ruta som kan 
+
+
