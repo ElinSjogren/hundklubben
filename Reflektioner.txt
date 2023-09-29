@@ -1,10 +1,17 @@
 Jag tänker att fokus här kommer vara den tekniska biten och inte så mycket om 
 hurvida det är en fin och exklusiv design. Jag tror att jag kommer glömma tiden 
-och absolut inte hålla deadline om jag inte begränsar min css.
+och absolut inte hålla deadline om jag inte begränsar min css. Men ljust och fint med en bild på en hund är inte komplicerat.
+Jag kommer använda mig av ljusa gröna toner och skarp vit.
 
 Jag tänker att jag kan slå två flugor i en smäll och ha en gullig bild av hundar som bakgrund till headern. 
+PÅ det sättet får man ha en större och finare header.
 Detta project kommer att vara utmanande. Jag tänker att avgöra om lösenordet är falskt eller sant är kankse lätt. 
 Men själva pop-uperna som säger att lösenordet är fel kan nog vara ganska svårt. Jag kan tänka mig att jag slänger 
 ut en div precis under som får vara röd om det blev fel.
 
 För att kontrollera om det är rätt lösen for jag ha en if-kontroll som kollar att båda inputtarna är rätt.
+
+Jag förstår inte riktigt det här med meddelandet:
+""välkommen, du är nu inloggad"... Detta meddelande skall genereras på din html-sida, så du 
+bör göra det i script.js."
+Men jag tolkar det som att det måste läggas in ett element i html som genererats från JS.

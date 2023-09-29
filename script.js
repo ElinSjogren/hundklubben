@@ -17,9 +17,11 @@ if(localStorage.inloggad = true){
 
       //OM lösen och namn är rätt spara dem i localStorageoch gör hemlisarna synliga
       if(losenInmatning==rattLosen && namnInmatning == anvandarNamn){
-
+        
         localStorage.setItem('inloggad', true);
         inloggning();
+        alert('Välkommen! Du är inloggad :)')
+        
 
       }
       else{

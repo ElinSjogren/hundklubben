@@ -76,9 +76,15 @@ button{
   color: white;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .loggaInWrapp,
 #informationSomInloggad{
   width: 80vw;
+}
+header{
+  background-image: 100vw;
+}
+nav{
+  width: 100vw;
 }
 }
