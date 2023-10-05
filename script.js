@@ -62,7 +62,7 @@ window.onload = (event) =>{
   //när man trycker på knappen logga ut ska hemlisarna göras osynliga och 
   //texten som meddelat att man var inloggad ska tas bort.
   knappenUt.addEventListener('click', function(){
-    localStorage.setItem('inloggad', 'false');
+    localStorage.removeItem('inloggad');
     p1.remove();
     taFram('loggaInFormular');
     taBort('informationSomInloggad');
