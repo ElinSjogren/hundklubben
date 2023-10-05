@@ -22,7 +22,7 @@ window.onload = (event) =>{
   
   
   //checka om inloggning finns i localStorage?
-  if(localStorage.inloggad){
+  if(localStorage.inloggad === 'true'){
     valkommenText();
     inloggning();
   }  
